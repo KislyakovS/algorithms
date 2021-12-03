@@ -14,3 +14,7 @@ const gcd_2 = (a, b) => {
 
   return a;
 }
+
+module.exports = {
+  gcd_1, gcd_2
+}
