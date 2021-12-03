@@ -6,5 +6,9 @@ const pow = (a, b) => {
   return [...binary].reverse().reduce((res, it) => {
     if (it === '1') res *= a;
     a *= a;
+
+    return res;
   }, 1);
 }
+
+module.exports = { pow };
